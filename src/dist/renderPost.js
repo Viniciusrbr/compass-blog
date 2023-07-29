@@ -1,13 +1,4 @@
 import { posts } from "./data.js";
-console.log("Informações dos posts:");
-/*
-
-let allPosts = posts.reduce((allPosts, post) => {
-    console.log(`Post ${post.id}: ${post.title}`);
-    return allPosts;
-}, 0);
-
-*/
 const postsSection = document.querySelector(".posts-section");
 let allPosts = posts.reduce((allPosts, post) => {
     return (allPosts +
@@ -17,7 +8,7 @@ let allPosts = posts.reduce((allPosts, post) => {
   <div class="post-texts">
     <h2 class="post-title">${post.title}</h2>
     <p class="post-content">${post.body}</p>
-    <a href="postdetails.html" class="post-details">Expand...</a>
+    <a href="postdetails.html?id=${post.id}" class="post-details">Expand...</a>
   </div>
 </div>
         `);
