@@ -1,0 +1,88 @@
+@import "global.css";
+
+/*post details*/
+.container-card-post {
+    margin: 20px 400px 20px 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-post {
+    width: 771px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-post-texts {
+    padding: 22.81px 39.59px 20.53px 54.67px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-post-title {
+    color: var(--title);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-post-content {
+    color: var(--gray);
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+    letter-spacing: 1.3px;
+    line-height: 20px;
+}
+
+.card-comments {
+    margin-top: 63px;
+    padding: 22px 56px 36px 54px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.comment {
+    margin-top: 14px;
+    font-size: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #575757;
+
+    letter-spacing: 1.6px;
+    line-height: 20px;
+}
+
+.user-info {
+    color: var(--title);
+    font-size: 16px;
+    font-weight: 600;
+    display: inline;
+}
+
+.user-comment {
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 200;
+    display: inline;
+    font-style: italic;
+}
+
+/*back button*/
+button {
+    position: absolute;
+
+    left: 34px;
+    background-color: var(--primary-color);
+    width: 75px;
+    height: 75px;
+
+    border-radius: 50%;
+    border: none;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
