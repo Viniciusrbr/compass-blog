@@ -23,7 +23,7 @@ if (postId) {
             const commentsHTML = postComments.reduce((allComments, comment) => {
                 return `${allComments}
                 <div class="comment">
-                    <p class="user-info">${comment.userName}: ${comment.email}</p>
+                    <p class="user-info">${comment.userName}: ${comment.email}:</p>
                     <p class="user-comment">${comment.body}</p>
                 </div>`;
             }, "");

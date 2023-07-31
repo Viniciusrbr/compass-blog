@@ -2,7 +2,7 @@
 
 /*post details*/
 .container-card-post {
-    margin: 20px 400px 20px 340px;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,9 +11,17 @@
 
 .card-post {
     width: 771px;
+    min-height: 519px;
     border-radius: 8px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+.card-post img {
+    min-width: 771px;
+    max-width: 771px;
+    min-height: 311.4px;
+}
+
 
 .card-post-texts {
     padding: 22.81px 39.59px 20.53px 54.67px;
@@ -31,6 +39,7 @@
 
 .card-post-content {
     color: var(--gray);
+
     font-size: 13px;
     font-weight: 300;
     margin-bottom: 20px;
@@ -43,6 +52,8 @@
     margin-top: 63px;
     padding: 22px 56px 36px 54px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    width: 762px;
 }
 
 .comment {
@@ -71,18 +82,88 @@
 }
 
 /*back button*/
-button {
+.back-button {
     position: absolute;
 
     left: 34px;
     background-color: var(--primary-color);
     width: 75px;
     height: 75px;
+    top: 80px;
 
     border-radius: 50%;
     border: none;
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:985px) {
+    .container-card-post {
+        margin-top: 20px;
+    }
+
+    .back-button {
+        position: sticky;
+        top: 650px;
+        left: 740px;
+    }
 }
 
 
+@media(max-width:850px) {
+    .card-post {
+        width: 585px;
+    }
+
+    .card-post img {
+        min-width: 585px;
+        max-width: 585px;
+    }
+
+    .card-comments {
+        width: 80%;
+    }
+}
+
+@media(max-width:625px) {
+    .container-card-post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-post {
+        width: 385px;
+    }
+
+    .card-post img {
+        min-width: 385px;
+        max-width: 385px;
+    }
+}
+
+@media(max-width:420px) {
+    .card-post {
+        width: 300px;
+    }
+
+    .card-post img {
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .card-comments,
+    .card-post-texts {
+        padding: 15px;
+    }
+
+    .user-info, .user-comment {
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+}
