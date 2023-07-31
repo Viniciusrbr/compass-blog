@@ -83,13 +83,13 @@
 
 /*back button*/
 .back-button {
-    position: absolute;
-
+    position: fixed;
+    top: 80px;
     left: 34px;
+
     background-color: var(--primary-color);
     width: 75px;
     height: 75px;
-    top: 80px;
 
     border-radius: 50%;
     border: none;
@@ -107,9 +107,13 @@
     }
 
     .back-button {
-        position: sticky;
-        top: 650px;
-        left: 740px;
+        top: auto;
+        left: auto;
+        bottom: 34px;
+        right: 34px;
+
+        width: 55px;
+        height: 55px;
     }
 }
 
@@ -145,6 +149,12 @@
         min-width: 385px;
         max-width: 385px;
     }
+
+    .user-info,
+    .user-comment {
+        font-size: 14px;
+        word-wrap: break-word;
+    }
 }
 
 @media(max-width:420px) {
@@ -160,10 +170,5 @@
     .card-comments,
     .card-post-texts {
         padding: 15px;
-    }
-
-    .user-info, .user-comment {
-        font-size: 14px;
-        word-wrap: break-word;
     }
 }

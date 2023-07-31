@@ -3,37 +3,37 @@ export const posts = [
     {
         id: 1,
         title: "Novo smartphone XYZ lançado com tecnologia inovadora",
-        imageUrl: "https://source.unsplash.com/409x273/?technology",
+        imageUrl: "../images/card-images/card01.jpg",
         body: "A empresa ABC acaba de lançar o aguardado Smartphone XYZ, que incorpora recursos avançados de realidade aumentada. Com uma câmera aprimorada e sensores de última geração, o dispositivo permite uma experiência imersiva única para os usuários, abrindo novas possibilidades nos campos de entretenimento, educação e negócios."
     },
     {
         id: 2,
         title: "Avanços na Inteligência Artificial: Assistente Doméstico YZX aprende com as emoções dos usuários",
-        imageUrl: "https://source.unsplash.com/409x273/?programmer",
+        imageUrl: "../images/card-images/card02.jpg",
         body: "O Assistente Doméstico YZX, baseado em inteligência artificial, deu um grande passo à frente ao aprender e responder de acordo com as emoções dos usuários. Utilizando algoritmos avançados, o assistente agora é capaz de identificar o humor do usuário e adaptar suas respostas para proporcionar uma experiência mais personalizada e empática."
     },
     {
         id: 3,
         title: "Empresas de tecnologia unem forças para combater notícias falsas nas redes sociais",
-        imageUrl: "https://source.unsplash.com/409x273/?javascript",
+        imageUrl: "../images/card-images/card03.jpg",
         body: "Diante do crescente problema das notícias falsas nas redes sociais, grandes empresas de tecnologia estão se unindo para enfrentar essa questão. Facebook, Google e Twitter anunciaram uma parceria inédita para desenvolver ferramentas inteligentes que identifiquem e reduzam a disseminação de informações enganosas, visando garantir um ambiente digital mais seguro e confiável."
     },
     {
         id: 4,
         title: "Impressoras 3D revolucionam a medicina com próteses personalizadas de baixo custo",
-        imageUrl: "https://source.unsplash.com/409x273/?vscode",
+        imageUrl: "../images/card-images/card04.jpg",
         body: "A tecnologia de impressão 3D está transformando a medicina ao permitir a produção de próteses personalizadas de baixo custo. Pacientes agora têm acesso a próteses feitas sob medida para suas necessidades específicas, impulsionando a acessibilidade e melhorando a qualidade de vida para aqueles que necessitam de membros artificiais."
     },
     {
         id: 5,
         title: "Carros autônomos ganham espaço nas cidades e reduzem acidentes de trânsito",
-        imageUrl: "https://source.unsplash.com/409x273/?developer",
+        imageUrl: "../images/card-images/card05.jpg",
         body: "A presença de carros autônomos nas estradas está crescendo, e cidades ao redor do mundo estão se adaptando a essa nova realidade. Com sistemas avançados de sensores e algoritmos inteligentes, esses veículos têm demonstrado uma redução significativa nos acidentes de trânsito, sinalizando um futuro mais seguro e eficiente para o transporte urbano."
     },
     {
         id: 6,
         title: "Realidade virtual no mundo dos esportes: fãs experimentam a emoção dos jogos como nunca antes",
-        imageUrl: "https://source.unsplash.com/409x273/?freelancer",
+        imageUrl: "../images/card-images/card06.jpg",
         body: "A realidade virtual está revolucionando a maneira como os fãs experimentam os jogos esportivos. Com óculos de RV cada vez mais acessíveis, os espectadores podem se sentir como se estivessem dentro do estádio, acompanhando as partidas em tempo real e desfrutando de uma perspectiva imersiva que proporciona uma nova dimensão de emoção e interação durante os eventos esportivos."
     }
 ];
